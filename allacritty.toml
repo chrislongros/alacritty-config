@@ -1,0 +1,107 @@
+# ================================
+# Alacritty — KDE / Konsole-like
+# JetBrains Mono (size 18) + Nord
+# Line cursor
+# Default size: 85x20
+# ================================
+
+[general]
+live_config_reload = true
+
+[env]
+TERM = "alacritty"
+LANG = "en_US.UTF-8"
+LC_CTYPE = "en_US.UTF-8"
+
+# ----------------
+# Window
+# ----------------
+[window]
+decorations = "Full"
+opacity = 1.0
+dynamic_padding = true
+startup_mode = "Windowed"
+
+[window.padding]
+x = 12
+y = 12
+
+[window.dimensions]
+columns = 85
+lines = 20
+
+# ----------------
+# Font
+# ----------------
+[font]
+size = 18.0
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+[font.offset]
+x = 0
+y = 0
+
+# ----------------
+# Scrolling
+# ----------------
+[scrolling]
+history = 10000
+multiplier = 3
+
+# ----------------
+# Cursor (LINE / I-beam)
+# ----------------
+[cursor]
+blink_interval = 600
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
+# ----------------
+# Selection
+# ----------------
+[selection]
+save_to_clipboard = true
+
+# ----------------
+# Colors — Nord
+# ----------------
+[colors.primary]
+background = "#2E3440"
+foreground = "#D8DEE9"
+
+[colors.normal]
+black   = "#3B4252"
+red     = "#BF616A"
+green   = "#A3BE8C"
+yellow  = "#EBCB8B"
+blue    = "#81A1C1"
+magenta = "#B48EAD"
+cyan    = "#88C0D0"
+white   = "#E5E9F0"
+
+[colors.bright]
+black   = "#4C566A"
+red     = "#BF616A"
+green   = "#A3BE8C"
+yellow  = "#EBCB8B"
+blue    = "#81A1C1"
+magenta = "#B48EAD"
+cyan    = "#8FBCBB"
+white   = "#ECEFF4"
